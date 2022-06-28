@@ -88,6 +88,8 @@
 	</div>
 </div>
 <script>
+
+	
 	function F__ID(){
 		//-------------------------------------
 		VmInclude:__COMPONENT__/f/form.01.js
@@ -101,6 +103,9 @@
 		var this_module=$vm.module_list[$vm.vm['__ID'].name];
 		//------------------------------------
 		$('#D__ID').on('load',function(){
+		VmInclude:__COMPONENT__/f/form.01.js
+		VmInclude:__CURRENT_PATH__/../../library/shared-form.js
+
 			$('#header').hide();
 			$('#footer').hide();
 			$('#participant_div__ID').hide()
@@ -161,7 +166,7 @@
 			}
 			intervals = [];
 		window.localStorage.clear();
-		alert("local storage has been cleared")
+		// alert("local storage has been cleared")
 
 		}
 		//------------------------------------

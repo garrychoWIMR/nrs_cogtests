@@ -2,7 +2,8 @@
     var modules={
         "panel-main-spardac":    	        {url:"$H/m/panel-main.html",router:1},
         "panel-child-spardac":              {url:"$H/m/panel-child.html"},
-        "panel-library-spardac":    		{url:"$H/m/panel-library.html",router:1},
+        "night-task":    		            {url:"$H/m/night_tasks.html",router:1},
+        "morning-task":    		            {url:"$H/m/morning_tasks.html",router:1},
         
         
         "panel-export-screening-spardac":   {url:"$H/m/export/panel-export-screened.html",router:1},
@@ -138,15 +139,15 @@
         "finger-tapping6-after-data-spardac":   {url:"$H/m/neurocog/finger-tapping6-after-data.html",Table:"finger-tapping-spardac",form_module:"finger-tapping6-after-form-spardac"},
         "finger-tapping6-after-form":            {url:"$H/m/neurocog/finger-tapping6-after-form.html",Table:"finger-tapping-spardac",Table2:"finger-tapping12-spardac",task_name:"Finger Tapping - Morning"},
         "finger-tapping-alt-data-spardac":      {url:"$H/m/neurocog/finger-tapping-data.html",Table:"finger-tapping-alt-spardac",form_module:"finger-tapping-alt-form-spardac"},
-        "finger-tapping-alt-form-spardac":      {url:"$H/m/neurocog/finger-tapping-alt-form.html",Table:"finger-tapping-alt-spardac"},
+        "alt-finger-tapping6-after-form":      {url:"$H/m/neurocog/finger-tapping-alt-form.html",Table:"finger-tapping-alt-spardac"},
         "finger-tapping12-before-data-spardac": {url:"$H/m/neurocog/finger-tapping12-before-data.html",Table:"finger-tapping12-spardac",form_module:"finger-tapping12-before-form-spardac"},
         "finger-tapping12-before-form-spardac": {url:"$H/m/neurocog/finger-tapping12-before-form.html",Table:"finger-tapping12-spardac",task_name:"Finger Tapping - Evening"},
         "finger-tapping12-alt-data-spardac":    {url:"$H/m/neurocog/finger-tapping12-data.html",Table:"finger-tapping12-alt-spardac",form_module:"finger-tapping12-alt-form-spardac"},
-        "finger-tapping12-alt-form-spardac":    {url:"$H/m/neurocog/finger-tapping12-alt-form.html",Table:"finger-tapping12-alt-spardac"},
+        "alt-finger-tapping12-before-form":    {url:"$H/m/neurocog/finger-tapping12-alt-form.html",Table:"finger-tapping12-alt-spardac"},
         // "finger-tapping12-before-data":         {url:"$H/m/neurocog/finger-tapping12-before-data.html",Table:"finger-tapping12-sparda22c",form_module:"finger-tapping12-before-form-spardac"},
         "finger-tapping12-before-form":         {url:"$H/m/neurocog/finger-tapping12-before-form.html",Table:"finger-tapping12-spardac",task_name:"Finger Tapping - Evening"},
         // "letter-cancellation-data-spardac":     {url:"$H/m/neurocog/letter-cancellation-data.html",Table:"letter-cancellation-spardac",form_module:"letter-cancellation-form-spardac"},
-        "lct_form":     {url:"$H/m/neurocog/letter-cancellation-form.html",Table:"letter-cancellation-spardac"},
+        "lct_form":                             {url:"$H/m/neurocog/letter-cancellation-form.html",Table:"letter-cancellation-spardac"},
         "nback1-data-spardac":                  {url:"$H/m/neurocog/nback1-data.html",Table:"nback1-spardac",form_module:"nback1-form-spardac"},
         "nback1-form-spardac":                  {url:"$H/m/neurocog/nback1-form.html",Table:"nback1-spardac",task_name:"1-Back"},
         "nback2-data-spardac":                  {url:"$H/m/neurocog/nback2-data.html",Table:"nback2-spardac",form_module:"nback2-form-spardac"},
