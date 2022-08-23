@@ -228,6 +228,7 @@
         "psggrr-form-spardac":                    {url:"$H/m/library/psggrr-form.html",Table:"psggrr-spardac",task_name:"Grael Research PSG Report"},
         "psg300-data-spardac":                    {url:"$H/m/library/psg300-data.html",Table:"psg300-spardac",form_module:"psg300-form-spardac",task_name:"PSG 300 Report"},
         "psg300-form-spardac":                    {url:"$H/m/library/psg300-form.html",Table:"psg300-spardac",task_name:"PSG 300 Report"},
+        "pasat":                                   {url:"$H/m/neurocog/pasat.html",Table:"pasat"}
     }
     for(p in modules){
         $vm.module_list[p]=modules[p];
